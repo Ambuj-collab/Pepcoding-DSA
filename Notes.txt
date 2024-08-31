@@ -1,0 +1,7 @@
+1) Dynamic programming - Tabulation:
+=========================================
+	Tabulation is used when you don't want to use recursion but bigger problem can be solved by using smaller problem. In DP tabulation, we need to make sure that before solving a particular cell, all the cells, in which it(cell which we are trying to solve) is dependent, are solved.  
+	Steps:
+		a) Declare Storage and provide meaning to each cell
+		b) Identify the direction of the problem, where the smallest problem lies that we need to solve and where the biggest problem lies that we need to solve. Always, in tabulation, we solve the problem from smallest to biggest direction. First we solve the smallest problem, then we solve the second smallest problem, then third smallest problem and so on.
+		c) Iterate through the assigned storage, in step a, and solve.
