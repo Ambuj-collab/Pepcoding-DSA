@@ -5,3 +5,7 @@
 		a) Declare Storage and provide meaning to each cell
 		b) Identify the direction of the problem, where the smallest problem lies that we need to solve and where the biggest problem lies that we need to solve. Always, in tabulation, we solve the problem from smallest to biggest direction. First we solve the smallest problem, then we solve the second smallest problem, then third smallest problem and so on.
 		c) Iterate through the assigned storage, in step a, and solve.
+		
+2) Graphs:
+=================
+Graph is like a tree supported with visited array.
